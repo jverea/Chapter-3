@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class NumbersDemo {
    public static void main (String[] args){
-       int a;
+       int a ;
        int b;
 
        Scanner input = new Scanner(System.in);
@@ -10,8 +10,8 @@ public class NumbersDemo {
 
 
 
-       displayTwiceTheNumber(a, b);
-       displayNumberPlusFive(a, b);
+       //; displayTwiceTheNumber(a , b);
+       //; displayNumberPlusFive(a, b);
    }
    public static void displayTwiceTheNumber(int a, int b){
 
