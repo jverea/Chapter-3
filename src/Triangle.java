@@ -21,13 +21,21 @@ public class Triangle {
         else
             triangleDoesNotExist();
     }
-    public static void isoclesTriangle(){
-
+    public static void isoclesTriangle() {
+        Scanner input = new Scanner(System.in);
+        double sideA;
+        double sideB;
+        double sideC;
+        String sidechoice;
 
     }
-    public static void equalateralTriangle(){
-        //all sides are equal find the parimeter and hight
+
+    {
+    public static void equlateralTriangle (){
+        Scanner input = new Scanner(System.in);
+
 }
+
     public static void rightTriangle(){
         Scanner input = new Scanner (System.in);
         double sideA;
