@@ -3,11 +3,13 @@ public class FixDebugThree1
 {
     public static void main(String [] args)
     {
-        double myCheck = 50.00;
-        double yourCheck = 19.95;
+        int myCheck;
+        int yourCheck;
+        //double myCheck = 50.00;
+        //double yourCheck = 19.95;
         System.out.println("Tips are");
-        //; calcTip(myCheck);
-        //; calcTip(yourCheck);
+         //calcTip(myCheck);
+         //calcTip(yourCheck);
     }
     public static void calcTip(int bill)
     {

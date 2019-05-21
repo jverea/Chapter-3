@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Triangle {
@@ -12,14 +11,14 @@ public class Triangle {
 
         choice = input.nextInt();
 
-        if (choice ==1)
-            rightTriangle();
-        else if (choice ==2)
-            isoclesTriangle();
-        else if (choice ==3)
-            equalateralTriangle();
-        else
-            triangleDoesNotExist();
+      //  if (choice ==1)
+      //      rightTriangle();
+      //  else if (choice ==2)
+        // isoclesTriangle();
+      //  else if (choice ==3)
+      //      equalateralTriangle();
+      //  else
+      //      triangleDoesNotExist();
     }
     public static void isoclesTriangle() {
         Scanner input = new Scanner(System.in);
@@ -31,7 +30,7 @@ public class Triangle {
     }
 
     {
-    public static void equlateralTriangle (){
+//  public static void equlateralTriangle (){
         Scanner input = new Scanner(System.in);
 
 }
@@ -51,36 +50,34 @@ public class Triangle {
             sideB = input.nextDouble();
             System.out.println("what is side C? >>>");
             sideC = input.nextDouble();
-            calculateSideA_B(sideC, sideB, sidechoice);
+            //calculateSideA_B(sideC, sideB, sidechoice);
         }
         else if(sidechoice.equals("B")){
             System.out.println("what is side A? >>>");
             sideA = input.nextDouble();
             System.out.println("what is side C? >>>");
             sideC = input.nextDouble();
-            calculateSideA_B(sideC, sideA, sidechoice);
+            //calculateSideA_B(sideC, sideA, sidechoice);
         }
         else if(sidechoice.equals("C")){
             System.out.println("what is side A? >>>");
             sideA = input.nextDouble();
             System.out.println("what is side B? >>>");
             sideB = input.nextDouble();
-            calculateSideC(sideA, sideB, sidechoice);
+            //calculateSideC(sideA, sideB, sidechoice);
         }
 
     }
-    public static void calculateSideA_B(double side1, double side2, String choice){
+ // public static void calculateSideA_B(double side1, double side2, String choice){
         double aORb;
-        aORb = Math.sqrt(side1*side1 - side2*side2);
-        System.out.println("Side " + choice + " = " + aORb);
-    }
-    public static void calculateSideC(double side1, double side2, String choice){
-        double c;
-        c = Math.sqrt(side1*side1 + side2*side2);
-        System.out.println("Side " + choice + " = " + c);
+   //   aORb = Math.sqrt(side1*side1 - side2*side2);
+ //    system.out.println("Side " +choice + " = " + aORb);
 
-    }
+//  public static void calculateSideC(double side1, double side2, String choice){
+        double c;
+   //   c = Math.sqrt(side1*side1 + side2*side2);
+  //    System.out.println("Side " + choice + " = " + c);
+//
     public static void triangleDoesNotExist(){
-        System.out.println("That side does not exist.");
-    }
+        System.out.println("That side does not exist."); }
 }
